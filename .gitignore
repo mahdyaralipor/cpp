@@ -1,8 +1,3 @@
-# Ignore everything
-*
 
-# But don't ignore .cpp files
 !*.cpp
 
-# Don't ignore .gitignore itself (so you can commit it)
-!.gitignore
