@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# Keep .cpp files
+!*.cpp
+
+# Keep .gitignore itself
+!.gitignore
