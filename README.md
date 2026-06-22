@@ -77,7 +77,7 @@ for (int i = 0; i < 3; i++) {
 ## 👨‍💻 نویسنده
 
 **Mahdyar Alipor**
-PHP/Laravel Backend Developer | Lelystad, NL
+Backend Developer
 [GitHub](https://github.com/mahdyaralipor)
 
 ## 📄 مجوز
