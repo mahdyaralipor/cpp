@@ -1,5 +1,4 @@
 # C++ Learning Journey
-
 یک پروژه آموزشی برای یادگیری زبان برنامه‌نویسی **C++** از پایه تا مفاهیم اولیه شی‌گرایی. این پروژه شامل تمرین‌ها و کدهای نوشته‌شده در طول **۷ ساعت یادگیری** است.
 
 ## 📚 محتوا
@@ -38,26 +37,28 @@ g++ init.cpp -o init
 3. با `Ctrl+Alt+N` یا از ترمینال اجرا کن
 
 ## 📁 ساختار پروژه
-cpp/
-├── init.cpp # ساعت ۱: Hello World
-├── variable.cpp # ساعت ۲: متغیرها
-├── change-variabele-data.cpp # ساعت ۲: تغییر داده متغیر
-├── conditions.cpp # ساعت ۳: شرط‌ها
-├── exercise-conditions.cpp # ساعت ۳: تمرین شرط‌ها
-├── for.cpp # ساعت ۴: حلقه for
-├── exercise-for.cpp # ساعت ۴: تمرین حلقه
-├── func.cpp # ساعت ۵: توابع
-├── array.cpp # ساعت ۶: آرایه و رشته
-├── class.cpp # ساعت ۷: class ساده
-└── README.md
 
-text
+```
+cpp/
+├── init.cpp                  # ساعت ۱: Hello World
+├── variable.cpp              # ساعت ۲: متغیرها
+├── change-variabele-data.cpp # ساعت ۲: تغییر داده متغیر
+├── conditions.cpp            # ساعت ۳: شرط‌ها
+├── exercise-conditions.cpp   # ساعت ۳: تمرین شرط‌ها
+├── for.cpp                   # ساعت ۴: حلقه for
+├── exercise-for.cpp          # ساعت ۴: تمرین حلقه
+├── func.cpp                  # ساعت ۵: توابع
+├── array.cpp                 # ساعت ۶: آرایه و رشته
+├── class.cpp                 # ساعت ۷: class ساده
+└── README.md
+```
 
 ## 🎯 تمرین‌های مهم
 
 ### آرایه ۵ عدد - جمع آن‌ها
+
 ```cpp
-int nums = {1, 2, 3, 4, 5};[1]
+int nums[] = {1, 2, 3, 4, 5};
 int sum = 0;
 for (int i = 0; i < 5; i++) {
     sum += nums[i];
@@ -65,8 +66,9 @@ for (int i = 0; i < 5; i++) {
 ```
 
 ### ۳ اسم در آرایه string
+
 ```cpp
-string names;[2]
+string names[3];
 for (int i = 0; i < 3; i++) {
     cin >> names[i];
 }
