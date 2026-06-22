@@ -4,5 +4,8 @@
 # Keep .cpp files
 !*.cpp
 
+# Keep .md files
+!*.md
+
 # Keep .gitignore itself
 !.gitignore
