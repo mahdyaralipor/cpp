@@ -77,7 +77,6 @@ for (int i = 0; i < 3; i++) {
 ## 👨‍💻 نویسنده
 
 **Mahdyar Alipor**
-Backend Developer
 [GitHub](https://github.com/mahdyaralipor)
 
 ## 📄 مجوز
